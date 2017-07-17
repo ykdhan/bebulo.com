@@ -22,11 +22,11 @@ body {
 
 a {
 	text-decoration: none;
-	color: initial;
+	color: #555;
 }
 a:hover{
 	text-decoration:none;
-	color: #333;
+	color: #555;
 }
 
 input, select, button, textarea, pre {

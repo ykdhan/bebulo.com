@@ -79,16 +79,22 @@
     padding-left: 1rem;
     font-weight: 500 !important;
 }
+.music-icon {
+    margin-right: 0.7em;
+}
 
 
 .submit-button {
-    font-size: 1rem;
-    color: #fff;
+    font-size: 0.9rem;
+    color: #333;
     padding: 0.5rem;
-    width: 12rem;
-    border: 0;
-    border-radius: 500px;
+    width: 11rem;
+    border: 1px solid #333;
+    border-radius: 100px;
     vertical-align: middle;
+    background: none;
+    
+    /*
     background: rgba(140,171,255,1) !important;
     background: -moz-linear-gradient(left, rgba(140,171,255,1) 0%, rgba(166,210,254,1) 100%) !important;
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(140,171,255,1)), color-stop(100%, rgba(166,210,254,1))) !important;
@@ -97,34 +103,62 @@
     background: -ms-linear-gradient(left, rgba(140,171,255,1) 0%, rgba(166,210,254,1) 100%) !important;
     background: linear-gradient(to right, rgba(140,171,255,1) 0%, rgba(166,210,254,1) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cabff', endColorstr='#a6d2fe', GradientType=1 ) !important;
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
+    */
 }
-.fa-arrow-down {
+
+
+.icon-download {
     font-size: 0.8rem;
     margin-top: 0.15rem;
     margin-right: 0.2rem;
 }
 .back-button {
     font-size: 0.9rem;
+    color: #333;
     padding: 1.3rem;
     padding-top: 0.7rem;
     padding-bottom: 0.5rem;
-    border: 0;
+    border: 1px solid #333;
+    border-radius: 100px;
     background: #fff;
-    border-radius: 500px;
     margin: 0;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
     vertical-align: middle;
     background: #fff;
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
 }
 
 
 
+#music-board {
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+    padding: 1em;
+    margin: 0;
+    text-align: left;
+}
+
+.board-button {
+    padding: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 100px;
+    font-size: 0.8em;
+    color: #999;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-left: 0.4em;
+}
+
+.board-icon {
+    margin-right: 0.7em;
+    margin-top: 0.05em;
+
+}
 
 
 
@@ -144,4 +178,49 @@
 #music-lyric pre {
     font-size: 0.9rem;
     line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+@media all and (min-width: 1230px) {
+
+
+
+}
+
+@media all and (max-width: 1229px) and (min-width: 960px) {
+
+
+
+}
+
+@media all and (max-width: 959px) and (min-width: 730px) {
+
+
+}
+
+@media all and (max-width: 729px) and (min-width: 640px) {
+
+    
+    #music-lyric {
+        margin: 1.5rem;
+        padding: 2rem;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #music-lyric pre {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+}
+
+@media all and (max-width: 639px) and (min-width: 50px) {
+
+
 }
